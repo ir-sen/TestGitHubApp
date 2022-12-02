@@ -19,6 +19,9 @@
             android:label="@string/title_activity_just2"
             android:theme="@style/Theme.TestGitHubApp.NoActionBar" />
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
